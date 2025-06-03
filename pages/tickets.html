@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets - XtremeWorld</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html">
+                    <img src="../images/xtreme-world.png" alt="XtremeWorld Logo">
+                    <h1>XtremeWorld</h1>
+                </a>
+            </div>
+            <button class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="atracciones.html">Atracciones</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="horarios.html">Horarios</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Compra tus Entradas</h1>
+            <p class="hero-subtitle">¡Asegura tu diversión con anticipación!</p>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container">
+        <!-- Tipos de Entradas -->
+        <section class="card">
+            <h2>Entradas Disponibles</h2>
+            <div class="implementation-grid">
+                <div class="ticket-card">
+                    <div class="ticket-header">
+                        <h3 class="ticket-title">Entrada Individual</h3>
+                        <span class="ticket-price">$50</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li>Acceso a todas las atracciones</li>
+                        <li>Válido por 1 día</li>
+                        <li>Incluye show nocturno</li>
+                        <li>Descuento en tiendas</li>
+                    </ul>
+                    <form class="ticket-form">
+                        <label for="cantidad1">Cantidad:</label>
+                        <input type="number" id="cantidad1" min="1" max="10" value="1">
+                        <button type="submit">Comprar Ahora</button>
+                    </form>
+                </div>
+
+                <div class="ticket-card">
+                    <div class="ticket-header">
+                        <h3 class="ticket-title">Pase Familiar</h3>
+                        <span class="ticket-price">$180</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li>Para 4 personas</li>
+                        <li>Incluye almuerzo</li>
+                        <li>Foto familiar de regalo</li>
+                        <li>20% descuento en tiendas</li>
+                    </ul>
+                    <form class="ticket-form">
+                        <label for="cantidad2">Cantidad:</label>
+                        <input type="number" id="cantidad2" min="1" max="5" value="1">
+                        <button type="submit">Comprar Ahora</button>
+                    </form>
+                </div>
+
+                <div class="ticket-card">
+                    <div class="ticket-header">
+                        <h3 class="ticket-title">Pase Joven</h3>
+                        <span class="ticket-price">$160</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li>Para 4 jóvenes</li>
+                        <li>Fast Pass incluido</li>
+                        <li>Bebida gratis</li>
+                        <li>Válido de L a V</li>
+                    </ul>
+                    <form class="ticket-form">
+                        <label for="cantidad3">Cantidad:</label>
+                        <input type="number" id="cantidad3" min="1" max="5" value="1">
+                        <button type="submit">Comprar Ahora</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Información Importante -->
+        <section class="card">
+            <h2>Información Importante</h2>
+            <div class="info-section">
+                <div class="payment-section">
+                    <h3>Métodos de Pago Aceptados</h3>
+                    <p class="payment-description">Ofrecemos múltiples opciones de pago seguras y convenientes para que puedas elegir la que mejor se adapte a tus necesidades.</p>
+                    <div class="payment-methods">
+                        <div class="payment-method">
+                            <img src="../images/payment-methods/visa.png" alt="Visa">
+                        </div>
+                        <div class="payment-method">
+                            <img src="../images/payment-methods/mastercard.png" alt="Mastercard">
+                        </div>
+                        <div class="payment-method">
+                            <img src="../images/payment-methods/amex.png" alt="American Express">
+                        </div>
+                        <div class="payment-method">
+                            <img src="../images/payment-methods/mercadopago.png" alt="Mercado Pago">
+                        </div>
+                        <div class="payment-method">
+                            <img src="../images/payment-methods/uala.png" alt="Ualá">
+                        </div>
+                    </div>
+                    <div class="payment-info">
+                        <ul>
+                            <li>Aceptamos todas las tarjetas de crédito y débito</li>
+                            <li>Pago a través de billeteras virtuales</li>
+                            <li>Transferencia bancaria directa</li>
+                            <li>Pago en efectivo en nuestras taquillas</li>
+                            <li>Proceso de pago seguro y encriptado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="policies-section">
+                    <h3>Políticas y Promociones</h3>
+                    <div class="policies-list">
+                        <div class="policy-item">
+                            <div class="policy-icon">📅</div>
+                            <div class="policy-content">
+                                <strong>Validez de Entradas</strong>
+                                <span>Las entradas son válidas solo para la fecha seleccionada</span>
+                            </div>
+                        </div>
+                        <div class="policy-item">
+                            <div class="policy-icon">🔄</div>
+                            <div class="policy-content">
+                                <strong>Cambios de Fecha</strong>
+                                <span>Permitidos con 48h de anticipación</span>
+                            </div>
+                        </div>
+                        <div class="policy-item">
+                            <div class="policy-icon">👶</div>
+                            <div class="policy-content">
+                                <strong>Menores</strong>
+                                <span>Menores de 3 años entran gratis</span>
+                            </div>
+                        </div>
+                        <div class="policy-item">
+                            <div class="policy-icon">🎓</div>
+                            <div class="policy-content">
+                                <strong>Descuento Estudiantes</strong>
+                                <span>15% de descuento<span class="promo-badge">STUDENT15</span></span>
+                            </div>
+                        </div>
+                        <div class="policy-item">
+                            <div class="policy-icon">👴</div>
+                            <div class="policy-content">
+                                <strong>Adultos Mayores</strong>
+                                <span>10% de descuento<span class="promo-badge">SENIOR10</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <p>Email: info@xtremeworld.com</p>
+                <p>Teléfono: (123) 456-7890</p>
+            </div>
+            <div class="footer-column">
+                <h3>Ubicación</h3>
+                <p>Av. Diversión 1234</p>
+                <p>Ciudad Aventura, CP 5000</p>
+            </div>
+            <div class="footer-column">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 XtremeWorld. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
