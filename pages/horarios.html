@@ -239,9 +239,27 @@
         </div>
     </footer>
     <script src="../js/main.js"></script>
+    <script src="../js/chatbot.js"></script>
+
+    <!-- Chatbot Interface -->
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header">
+            <span>Chat con XtremeWorld</span>
+            <button class="minimize-btn" id="minimize-chat">−</button>
+        </div>
+        <div class="chatbot-messages">
+            <div class="bot-message">
+                Hola, somos XtremeWorld, ¿con qué necesitas ayuda?
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Escribe tu mensaje...">
+            <button>Enviar</button>
+        </div>
+    </div>
 
     <!-- Chatbot Icon -->
-    <div class="chatbot-icon">
+    <div class="chatbot-icon" id="chatbot-icon">
         <img src="../images/chatbot-icon.png" alt="Chat con nosotros">
     </div>
 </body>
